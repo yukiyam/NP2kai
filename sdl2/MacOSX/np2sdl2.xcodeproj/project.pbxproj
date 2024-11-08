@@ -2272,12 +2272,16 @@
 					../../embed,
 					../../embed/menu,
 					../../embed/menubase,
+					../../fdd,
 					../../generic,
 					../../i286c,
 					../../io,
 					../../mem,
+					../../network,
 					../../sound,
+					../../sound/fmgen,
 					../../vram,
+					../../wab,
 					/Volumes/SDL2/SDL2.framework/Headers,
 				);
 				INFOPLIST_FILE = "np2sdl2/np2sdl2-Info.plist";
@@ -2308,12 +2312,16 @@
 					../../embed,
 					../../embed/menu,
 					../../embed/menubase,
+					../../fdd,
 					../../generic,
 					../../i286c,
 					../../io,
 					../../mem,
+					../../network,
 					../../sound,
+					../../sound/fmgen,
 					../../vram,
+					../../wab,
 					/Volumes/SDL2/SDL2.framework/Headers,
 				);
 				INFOPLIST_FILE = "np2sdl2/np2sdl2-Info.plist";
