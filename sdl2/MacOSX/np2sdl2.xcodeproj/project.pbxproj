@@ -31,6 +31,7 @@
 		1BC850DA20F060B400DF931C /* getsnd in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850D420F060B400DF931C /* getsnd */; };
 		1BC850DB20F060B400DF931C /* vermouth in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850D520F060B400DF931C /* vermouth */; };
 		1BC850DC20F060B400DF931C /* opna.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850D620F060B400DF931C /* opna.c */; };
+		B6B06C0D2CDD177300E0D5C3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B06C0C2CDD177300E0D5C3 /* libz.tbd */; };
 		BA2CAE551C2E7EFE00288316 /* oplgenc.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2CAE521C2E7EFE00288316 /* oplgenc.c */; };
 		BA2CAE561C2E7EFE00288316 /* oplgeng.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2CAE541C2E7EFE00288316 /* oplgeng.c */; };
 		BA99F2D51BD4DD1000B97E10 /* externalchipmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA99F2D31BD4DD1000B97E10 /* externalchipmanager.cpp */; };
@@ -265,7 +266,6 @@
 		BAF84EA3195AA38300183062 /* midiout.c in Sources */ = {isa = PBXBuildFile; fileRef = BAF84E7E195AA38300183062 /* midiout.c */; };
 		BAF84EA4195AA38300183062 /* midtable.c in Sources */ = {isa = PBXBuildFile; fileRef = BAF84E80195AA38300183062 /* midtable.c */; };
 		BAF84EA5195AA38300183062 /* midvoice.c in Sources */ = {isa = PBXBuildFile; fileRef = BAF84E82195AA38300183062 /* midvoice.c */; };
-		BAF84EA7195AA40E00183062 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF84EA6195AA40E00183062 /* libz.1.2.5.dylib */; };
 		BAF84EAB195AAAD900183062 /* np2.icns in Resources */ = {isa = PBXBuildFile; fileRef = BAF84EAA195AAAD900183062 /* np2.icns */; };
 /* End PBXBuildFile section */
 
@@ -304,6 +304,7 @@
 		1BC850D420F060B400DF931C /* getsnd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = getsnd; sourceTree = "<group>"; };
 		1BC850D520F060B400DF931C /* vermouth */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vermouth; sourceTree = "<group>"; };
 		1BC850D620F060B400DF931C /* opna.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opna.c; sourceTree = "<group>"; };
+		B6B06C0C2CDD177300E0D5C3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BA2CAE511C2E7EFE00288316 /* oplgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oplgen.h; sourceTree = "<group>"; };
 		BA2CAE521C2E7EFE00288316 /* oplgenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oplgenc.c; sourceTree = "<group>"; };
 		BA2CAE531C2E7EFE00288316 /* oplgencfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oplgencfg.h; sourceTree = "<group>"; };
@@ -754,7 +755,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF84EA7195AA40E00183062 /* libz.1.2.5.dylib in Frameworks */,
+				B6B06C0D2CDD177300E0D5C3 /* libz.tbd in Frameworks */,
 				BAF84B17195AA04F00183062 /* Cocoa.framework in Frameworks */,
 				BAF84E4B195AA35E00183062 /* SDL2.framework in Frameworks */,
 			);
@@ -854,6 +855,7 @@
 		BAF84B15195AA04F00183062 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6B06C0C2CDD177300E0D5C3 /* libz.tbd */,
 				BACA730B195ACE5F00784174 /* IOKit.framework */,
 				BAF84EA6195AA40E00183062 /* libz.1.2.5.dylib */,
 				BAF84E4A195AA35E00183062 /* SDL2.framework */,
