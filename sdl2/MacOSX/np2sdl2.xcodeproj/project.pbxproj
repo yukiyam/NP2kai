@@ -62,6 +62,8 @@
 		B6B06CA52CDD2B0600E0D5C3 /* cdd_mds.c in Sources */ = {isa = PBXBuildFile; fileRef = B6B06C922CDD2B0500E0D5C3 /* cdd_mds.c */; };
 		B6B06CAE2CDD2B7D00E0D5C3 /* lgy98.c in Sources */ = {isa = PBXBuildFile; fileRef = B6B06CA92CDD2B7D00E0D5C3 /* lgy98.c */; };
 		B6B06CAF2CDD2B7D00E0D5C3 /* net.c in Sources */ = {isa = PBXBuildFile; fileRef = B6B06CAA2CDD2B7D00E0D5C3 /* net.c */; };
+		B6B06CB22CDD2EC200E0D5C3 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BAF84E4A195AA35E00183062 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6B06CB32CDD2EC700E0D5C3 /* SDL2_mixer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6B06C0F2CDD289E00E0D5C3 /* SDL2_mixer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA2CAE551C2E7EFE00288316 /* oplgenc.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2CAE521C2E7EFE00288316 /* oplgenc.c */; };
 		BA2CAE561C2E7EFE00288316 /* oplgeng.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2CAE541C2E7EFE00288316 /* oplgeng.c */; };
 		BAAEA84C1963E34B00747635 /* threadbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAAEA8481963E34B00747635 /* threadbase.cpp */; };
@@ -282,6 +284,20 @@
 		BAF84EA5195AA38300183062 /* midvoice.c in Sources */ = {isa = PBXBuildFile; fileRef = BAF84E82195AA38300183062 /* midvoice.c */; };
 		BAF84EAB195AAAD900183062 /* np2.icns in Resources */ = {isa = PBXBuildFile; fileRef = BAF84EAA195AAAD900183062 /* np2.icns */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6B06CB12CDD2EB300E0D5C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6B06CB22CDD2EC200E0D5C3 /* SDL2.framework in CopyFiles */,
+				B6B06CB32CDD2EC700E0D5C3 /* SDL2_mixer.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1BC850A320F05E4700DF931C /* ct1745io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ct1745io.h; sourceTree = "<group>"; };
@@ -1777,6 +1793,7 @@
 				BAF84B0F195AA04F00183062 /* Sources */,
 				BAF84B10195AA04F00183062 /* Frameworks */,
 				BAF84B11195AA04F00183062 /* Resources */,
+				B6B06CB12CDD2EB300E0D5C3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -2260,6 +2277,7 @@
 					/Volumes/SDL2_mixer/SDL2_mixer.framework/Headers,
 				);
 				INFOPLIST_FILE = "np2sdl2/np2sdl2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST)) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.yui.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2303,6 +2321,7 @@
 					/Volumes/SDL2_mixer/SDL2_mixer.framework/Headers,
 				);
 				INFOPLIST_FILE = "np2sdl2/np2sdl2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST)) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.yui.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
