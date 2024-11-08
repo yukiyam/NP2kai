@@ -1914,7 +1914,7 @@
 					"$(inherited)",
 					/Volumes/SDL2,
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = np2sdl2/compiler.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1950,7 +1950,7 @@
 					"$(inherited)",
 					/Volumes/SDL2,
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = np2sdl2/compiler.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
