@@ -19,6 +19,7 @@
 		1BC850D720F060B400DF931C /* opl3.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850D120F060B400DF931C /* opl3.c */; };
 		1BC850DC20F060B400DF931C /* opna.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850D620F060B400DF931C /* opna.c */; };
 		B6B06C0D2CDD177300E0D5C3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B06C0C2CDD177300E0D5C3 /* libz.tbd */; };
+		B6B06C102CDD289E00E0D5C3 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B06C0F2CDD289E00E0D5C3 /* SDL2_mixer.framework */; };
 		B6B06C162CDD293300E0D5C3 /* np2_tickcount.c in Sources */ = {isa = PBXBuildFile; fileRef = B6B06C142CDD291900E0D5C3 /* np2_tickcount.c */; };
 		B6B06C172CDD293300E0D5C3 /* np2_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = B6B06C152CDD291900E0D5C3 /* np2_thread.c */; };
 		B6B06C2E2CDD298000E0D5C3 /* fmgen_fmgen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6B06C1C2CDD298000E0D5C3 /* fmgen_fmgen.cpp */; };
@@ -332,6 +333,7 @@
 		1BC850D520F060B400DF931C /* vermouth */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vermouth; sourceTree = "<group>"; };
 		1BC850D620F060B400DF931C /* opna.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opna.c; sourceTree = "<group>"; };
 		B6B06C0C2CDD177300E0D5C3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B6B06C0F2CDD289E00E0D5C3 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = /Volumes/SDL2_mixer/SDL2_mixer.framework; sourceTree = "<absolute>"; };
 		B6B06C122CDD291900E0D5C3 /* np2_thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = np2_thread.h; sourceTree = "<group>"; };
 		B6B06C132CDD291900E0D5C3 /* np2_tickcount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = np2_tickcount.h; sourceTree = "<group>"; };
 		B6B06C142CDD291900E0D5C3 /* np2_tickcount.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = np2_tickcount.c; sourceTree = "<group>"; };
@@ -889,6 +891,7 @@
 				B6B06C0D2CDD177300E0D5C3 /* libz.tbd in Frameworks */,
 				BAF84B17195AA04F00183062 /* Cocoa.framework in Frameworks */,
 				BAF84E4B195AA35E00183062 /* SDL2.framework in Frameworks */,
+				B6B06C102CDD289E00E0D5C3 /* SDL2_mixer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1129,6 +1132,7 @@
 		BAF84B15195AA04F00183062 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6B06C0F2CDD289E00E0D5C3 /* SDL2_mixer.framework */,
 				B6B06C0C2CDD177300E0D5C3 /* libz.tbd */,
 				BACA730B195ACE5F00784174 /* IOKit.framework */,
 				BAF84EA6195AA40E00183062 /* libz.1.2.5.dylib */,
@@ -2259,6 +2263,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Volumes/SDL2,
+					/Volumes/SDL2_mixer,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = np2sdl2/compiler.pch;
@@ -2283,6 +2288,7 @@
 					../../vram,
 					../../wab,
 					/Volumes/SDL2/SDL2.framework/Headers,
+					/Volumes/SDL2_mixer/SDL2_mixer.framework/Headers,
 				);
 				INFOPLIST_FILE = "np2sdl2/np2sdl2-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
@@ -2299,6 +2305,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Volumes/SDL2,
+					/Volumes/SDL2_mixer,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = np2sdl2/compiler.pch;
@@ -2323,6 +2330,7 @@
 					../../vram,
 					../../wab,
 					/Volumes/SDL2/SDL2.framework/Headers,
+					/Volumes/SDL2_mixer/SDL2_mixer.framework/Headers,
 				);
 				INFOPLIST_FILE = "np2sdl2/np2sdl2-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
