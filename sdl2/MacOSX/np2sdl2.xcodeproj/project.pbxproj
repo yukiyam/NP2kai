@@ -1790,6 +1790,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF84B44195AA04F00183062 /* Build configuration list for PBXNativeTarget "np2sdl2" */;
 			buildPhases = (
+				B6277F592CDDB0B4002B9519 /* ShellScript */,
 				BAF84B0F195AA04F00183062 /* Sources */,
 				BAF84B10195AA04F00183062 /* Frameworks */,
 				BAF84B11195AA04F00183062 /* Resources */,
@@ -1843,6 +1844,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6277F592CDDB0B4002B9519 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				./np2sdl2/np2_git_version.h,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADER_FILE=\"./np2sdl2/np2_git_version.h\"\necho \"#define GIT_VERSION\" \\\"`git rev-parse --short HEAD`\\\" > $HEADER_FILE\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAF84B0F195AA04F00183062 /* Sources */ = {

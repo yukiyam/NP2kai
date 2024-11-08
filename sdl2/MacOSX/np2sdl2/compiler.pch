@@ -96,7 +96,7 @@
 
 #endif
 
-#define GIT_VERSION "4a31774"
+#include "np2_git_version.h"
 
 //#include "compiler.h"
 
