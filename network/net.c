@@ -60,6 +60,7 @@
 
 #include <sys/time.h>
 
+extern unsigned GetTickCount();
 /*
 unsigned GetTickCount()
 {
