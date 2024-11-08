@@ -13,23 +13,10 @@
 		1BC850AE20F05E4800DF931C /* ct1745io.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850AA20F05E4800DF931C /* ct1745io.c */; };
 		1BC850B120F05EB800DF931C /* dlgwab.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850AF20F05EB800DF931C /* dlgwab.c */; };
 		1BC850B720F05EF300DF931C /* sxsihdd_nvl.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850B320F05EF300DF931C /* sxsihdd_nvl.c */; };
-		1BC850B820F05EF300DF931C /* fdd_mtr.res in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850B520F05EF300DF931C /* fdd_mtr.res */; };
-		1BC850B920F05EF300DF931C /* hddboot.res in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850B620F05EF300DF931C /* hddboot.res */; };
-		1BC850BE20F05F5A00DF931C /* x86 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850BA20F05F5A00DF931C /* x86 */; };
 		1BC850BF20F05F5A00DF931C /* bmsio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850BB20F05F5A00DF931C /* bmsio.c */; };
-		1BC850C020F05F5A00DF931C /* x64 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850BD20F05F5A00DF931C /* x64 */; };
-		1BC850C220F05F9C00DF931C /* x86 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850C120F05F9C00DF931C /* x86 */; };
-		1BC850CB20F05FDA00DF931C /* sysmenu.res in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850C320F05FD900DF931C /* sysmenu.res */; };
-		1BC850CC20F05FDA00DF931C /* ank12.res in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850C420F05FD900DF931C /* ank12.res */; };
 		1BC850CD20F05FDA00DF931C /* kbtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850C620F05FD900DF931C /* kbtrans.c */; };
-		1BC850CE20F05FDA00DF931C /* ank10.res in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850C720F05FD900DF931C /* ank10.res */; };
-		1BC850CF20F05FDA00DF931C /* sysmenu.str in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850C920F05FD900DF931C /* sysmenu.str */; };
 		1BC850D020F05FDA00DF931C /* soundmng.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850CA20F05FDA00DF931C /* soundmng.c */; };
 		1BC850D720F060B400DF931C /* opl3.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850D120F060B400DF931C /* opl3.c */; };
-		1BC850D820F060B400DF931C /* fmgen in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850D220F060B400DF931C /* fmgen */; };
-		1BC850D920F060B400DF931C /* mame in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850D320F060B400DF931C /* mame */; };
-		1BC850DA20F060B400DF931C /* getsnd in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850D420F060B400DF931C /* getsnd */; };
-		1BC850DB20F060B400DF931C /* vermouth in Resources */ = {isa = PBXBuildFile; fileRef = 1BC850D520F060B400DF931C /* vermouth */; };
 		1BC850DC20F060B400DF931C /* opna.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC850D620F060B400DF931C /* opna.c */; };
 		B6B06C0D2CDD177300E0D5C3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B06C0C2CDD177300E0D5C3 /* libz.tbd */; };
 		BA2CAE551C2E7EFE00288316 /* oplgenc.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2CAE521C2E7EFE00288316 /* oplgenc.c */; };
@@ -1534,22 +1521,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC850D920F060B400DF931C /* mame in Resources */,
-				1BC850CB20F05FDA00DF931C /* sysmenu.res in Resources */,
-				1BC850DB20F060B400DF931C /* vermouth in Resources */,
 				BAF84B21195AA04F00183062 /* InfoPlist.strings in Resources */,
-				1BC850CE20F05FDA00DF931C /* ank10.res in Resources */,
-				1BC850C220F05F9C00DF931C /* x86 in Resources */,
-				1BC850B920F05EF300DF931C /* hddboot.res in Resources */,
-				1BC850C020F05F5A00DF931C /* x64 in Resources */,
-				1BC850CF20F05FDA00DF931C /* sysmenu.str in Resources */,
 				BAF84B27195AA04F00183062 /* Credits.rtf in Resources */,
-				1BC850BE20F05F5A00DF931C /* x86 in Resources */,
-				1BC850DA20F060B400DF931C /* getsnd in Resources */,
 				BAF84EAB195AAAD900183062 /* np2.icns in Resources */,
-				1BC850D820F060B400DF931C /* fmgen in Resources */,
-				1BC850CC20F05FDA00DF931C /* ank12.res in Resources */,
-				1BC850B820F05EF300DF931C /* fdd_mtr.res in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
