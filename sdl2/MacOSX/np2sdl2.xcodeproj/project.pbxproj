@@ -691,7 +691,7 @@
 		BAF84D4D195AA10500183062 /* sdrawq16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sdrawq16.c; sourceTree = "<group>"; };
 		BAF84D4E195AA10500183062 /* vram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vram.c; sourceTree = "<group>"; };
 		BAF84D4F195AA10500183062 /* vram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vram.h; sourceTree = "<group>"; };
-		BAF84E4A195AA35E00183062 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		BAF84E4A195AA35E00183062 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = /Volumes/SDL2/SDL2.framework; sourceTree = "<absolute>"; };
 		BAF84E4D195AA38300183062 /* adpcm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adpcm.h; sourceTree = "<group>"; };
 		BAF84E4E195AA38300183062 /* adpcmc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adpcmc.c; sourceTree = "<group>"; };
 		BAF84E4F195AA38300183062 /* adpcmg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adpcmg.c; sourceTree = "<group>"; };
@@ -1936,7 +1936,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					/Volumes/SDL2,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = np2sdl2/compiler.pch;
@@ -1956,6 +1956,7 @@
 					../../mem,
 					../../sound,
 					../../vram,
+					/Volumes/SDL2/SDL2.framework/Headers,
 				);
 				INFOPLIST_FILE = "np2sdl2/np2sdl2-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
@@ -1971,7 +1972,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					/Volumes/SDL2,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = np2sdl2/compiler.pch;
@@ -1991,6 +1992,7 @@
 					../../mem,
 					../../sound,
 					../../vram,
+					/Volumes/SDL2/SDL2.framework/Headers,
 				);
 				INFOPLIST_FILE = "np2sdl2/np2sdl2-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
