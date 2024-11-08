@@ -7,6 +7,8 @@
 
 #pragma once
 
+#include "compiler_base.h"
+
 #ifdef __OBJC__
 #import <Cocoa/Cocoa.h>
 #endif
@@ -14,6 +16,8 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <SDL2/SDL.h>
+
+#define msgbox(title,msg)
 
 #define	BYTESEX_LITTLE
 #define	OSLANG_UTF8
@@ -28,9 +32,9 @@ typedef	signed short		SINT16;
 typedef	unsigned short		UINT16;
 typedef	signed int			SINT32;
 typedef	unsigned int		UINT32;
-typedef signed long int		SINT64;
-typedef signed long int		INT64;
-typedef unsigned long int	UINT64;
+typedef signed long long		SINT64;
+typedef signed long long		INT64;
+typedef unsigned long long	UINT64;
 
 #define	BRESULT				UINT
 #define	OEMCHAR				char
