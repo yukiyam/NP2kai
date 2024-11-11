@@ -257,6 +257,11 @@ short file_attr(const OEMCHAR *path) {
     if(!(sb.st_mode & S_IWUSR)) {
 			attr |= FILEATTR_READONLY;
 		}
+#if defined(UF_IMMUTABLE)
+		if (sb.st_flags & UF_IMMUTABLE) {
+			attr |= FILEATTR_READONLY;
+		}
+#endif
 		if(!attr) {
 			attr |= FILEATTR_NORMAL;
 		}
